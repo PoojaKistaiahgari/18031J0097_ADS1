@@ -1,0 +1,12 @@
+
+
+
+
+$ git init
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git add .
+$ git commit -m "first commit"
+$ git remote add origin  https://github.com/sridevikattari/DSA2018.git
+$ git push --force origin master
+$ git status
