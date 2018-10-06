@@ -2,11 +2,11 @@
 
 import java.util.Scanner;
 
-public class Stack {
+public class Solution {
 	private int[] s;
 	private int top=-1;
     int m;
-	public Stack(int max)
+	public Solution(int max)
 	{
 	  m=max;
 		s=new int[max];
@@ -51,7 +51,7 @@ public static void main(String args[])
     int n=a.length();
     String d[]= a.split(" ");
     int n3=0;
-	Stack st=new Stack(n);
+	Solution st=new Solution(n);
 	for(int i = 0;i<d.length;i++)
 	{
 	if(d[i].equals("*"))
