@@ -47,7 +47,6 @@ public class Stack {
 public static void main(String args[])
 {
 	Scanner s=new Scanner(System.in);
-	System.out.println("enter the expression");
     String a =s.nextLine() ;
     int n=a.length();
     String d[]= a.split(" ");
